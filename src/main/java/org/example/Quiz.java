@@ -8,7 +8,7 @@ public class Quiz {
 
     private int numberOfQuestionsCorrects = 0;
 
-    private Scanner userAnswer = new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
 
     public void addQuestion(Question question) {
         this.questions.add(question);
@@ -22,7 +22,7 @@ public class Quiz {
         }
     }
     private String getAnswer() {
-        String userAnswer = scanner.nextLine();
-        return userAnswer;
+        String userInput = scanner.nextLine();
+        return userInput;
     }
 }
