@@ -15,17 +15,17 @@ public abstract class Question {
         return question;
     }
 
-    public void setQuestion(String question) {
-        this.question = question;
-    }
+//    public void setQuestion(String question) {
+//        this.question = question;
+//    }
 
     public String getAnswer() {
         return answer;
     }
 
-    public void setAnswer(String answer) {
-        this.answer = answer;
-    }
+//    public void setAnswer(String answer) {
+//        this.answer = answer;
+//    }
 
     public abstract boolean answerCheck (String answer);
 }
